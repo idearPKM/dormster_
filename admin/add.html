@@ -9,6 +9,7 @@
 	<script type='text/javascript' src='./js/jquery.js'></script>
 	<script type='text/javascript' src='./js/bootstrap.js'></script>
 </head>
+
 <body>
 	<nav class="navbar navbar-default">
 		<div class="container">
@@ -20,105 +21,92 @@
 	
 	<center>
 
+<div class="container">
+	<div class="row">
+		<div class="col-md-5 col-md-offset-3 col-xs-5 col-xs-offset-3"><button class="add">ADD Data (เพิ่มข้อมูล)</button></div>
+	</div> <br>
 
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ชื่อหอพัก</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+			<input type="text" class="form-control" placeholder="Name Dorm"></div>
+		</div>
+	</div>
 
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ที่อยู่</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+				<textarea  rows="3" cols="20" class="form-control" placeholder="Address"></textarea></div>
+		</div>
+	</div>
 
-	
-	<br><br>
-	<table border="0" align="center" class="t3">
-		<tr>
-			<td width="30%"><button class="add">ADD Data (เพิ่มข้อมูล)</button>
-			</td>
-		</tr>
-	</table>
-<br>
-	<table border="0" bordercolor="#fff" cellpadding="10" align="center" class="t3">
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ราคา</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+				<input type="checkbox" id="price" value="air"> ห้องแอร์  &nbsp;
+				<input type="number" width ="10px" class="form-con2" placeholder="Price" >
+			</div>
+			<div class="form-group">
+				<input type="checkbox" id="price" value="fan"> ห้องพัดลม  
+				<input type="number" width ="10px" class="form-con2" placeholder="Price" >
+			</div>
+		</div>
+	</div>
 
-		<tr>
-			<td class="data" width="20%">ชื่อหอพัก</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      				<input type="text" class="form-control" placeholder="Name Dorm">
-	  			</div></center>
-	  		</td>
-		</tr>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">เบอร์ติดต่อ</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+	      		<input type="number" maxlength="10" class="form-control" placeholder="Tel.">
+	  		</div>
+	  	</div>
+	</div>
 
-		<tr>
-			<td class="data" width="20%">ที่อยู่</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      				<textarea  rows="3" cols="20" class="form-control" placeholder="Address">
-	      				</textarea>
-	  			</div></center>
-	  		</td>
-		</tr>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ชื่อเจ้าของเบอร์</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+	      		<input type="text" class="form-control" placeholder="Name Owner Tel.">
+	  		</div>
+	  	</div>
+	</div>
 
-		<tr>
-			<td class="data" width="20%">ราคา</td>
-			<td width="60%">
-				<div class="form-group">
-				    <input type="checkbox" id="price" value="air"> ห้องแอร์  &nbsp;
-				    <input type="number" width ="10px" class="form-con2" placeholder="Price" >
-				</div>
-				<div class="form-group">
-				    <input type="checkbox" id="price" value="fan"> ห้องพัดลม  
-				    <input type="number" width ="10px" class="form-con2" placeholder="Price" >
-				</div>
-	  		</td>
-		</tr>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ระยะห่าง</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+	      		<input type="text" class="form-control" placeholder="Distance">
+	  		</div>
+	  	</div>
+	</div>
 
-		<tr>
-			<td class="data" width="20%">เบอร์ติดต่อ</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      			<input type="number" maxlength="10" class="form-control" placeholder="Tel.">
-	  			</div></center>
-	  		</td>
-		</tr>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">ห้องว่าง</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+				<input type="checkbox" id="price" value="air"> ห้องแอร์  &nbsp;
+				<input type="number" width ="10px" class="form-con2" placeholder="Price" >
+			</div>
+			<div class="form-group">
+				<input type="checkbox" id="price" value="fan"> ห้องพัดลม  
+				<input type="number" width ="20px" class="form-con2" placeholder="Price" >
+			</div>
+		</div>
+	</div>
 
-		<tr>
-			<td class="data" width="20%">ชื่อเจ้าของเบอร์</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      			<input type="text" class="form-control" placeholder="Name Owner Tel.">
-	  			</div></center>
-	  		</td>
-		</tr>
+	<div class="row">
+		<div class="col-md-3 col-md-offset-1 col-xs-4">สิ่งอำนวยความสะดวก</div>
+		<div class="col-md-6 col-xs-7">
+			<div class="form-group">
+				<textarea  rows="3" cols="20" class="form-control" placeholder="list"></textarea></div>
+	  	</div>
+	</div>
+</div>
 
-		<tr>
-			<td class="data" width="20%">ระยะห่าง</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      			<input type="text" class="form-control" placeholder="Distance">
-	  			</div></center>
-	  		</td>
-		</tr>
-
-		<tr>
-			<td class="data" width="20%">ห้องว่าง</td>
-			<td width="60%">
-				<div class="form-group">
-				    <input type="checkbox" id="price" value="air"> ห้องแอร์  &nbsp;
-				    <input type="number" width ="10px" class="form-con2" placeholder="Price" >
-				</div>
-				<div class="form-group">
-				    <input type="checkbox" id="price" value="fan"> ห้องพัดลม  
-				    <input type="number" width ="20px" class="form-con2" placeholder="Price" >
-				</div>
-	  		</td>
-		</tr>
-
-		<tr>
-			<td class="data" width="20%">สิ่งอำนวยความสะดวก</td>
-			<td width="60%"><center>
-				<div class="form-group">
-	      				<textarea  rows="3" cols="20" class="form-control" placeholder="Address">
-	      				</textarea>
-	  			</div></center>
-	  		</td>
-		</tr>
-	</table>
-	</center>
 </body>
 </html>
+
 
